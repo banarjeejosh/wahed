@@ -1,0 +1,317 @@
+
+	
+	Project Name 			:	Bootstrap Starter Kit;
+	Project Description 	:	A Simple Bootstrap Theme Starter Kit, which will reduce your few time;
+	Author Name 			:	Saifur Rahman (Hasan);
+	Author Mobile Number 	:	+8801727213319;
+	Author Email 			:	saifur.dohs@gmail.com || me@coderpalace.com;	
+	__________________________________________________________________________________________________
+	
+	Project Name 			:	Project Name;
+	Project Description 	:	Project Description;
+	Author Name 			:	Author Full name;
+	Author Mobile Number 	:	Author Mobile Number;
+	Author Email 			:	Author Email Address;
+
+*/
+
+/* Fonts */
+.font-Roboto{ font-family: 'Roboto', sans-serif; }
+.font-Ubuntu{ font-family: 'Ubuntu', sans-serif; }
+.font-Raleway{ font-family: 'Raleway', sans-serif; }
+/*#############################################################*/
+
+/* Icons */
+.fa{ vertical-align: middle; }
+/*##########################*/
+
+/* Helper Classes */
+.center-x{ position: absolute; left: 50%; transform: translateX(-50%);  }
+.center-y{ position: absolute; top: 50%; transform: translateY(-50%); }
+.center-xy{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.display-none{ display: none; }
+.display-block{ display: block; }
+.display-table{ display: table; }
+.display-table > .display-table-cell{ display: table-cell; vertical-align: middle; }
+
+/* Bootstrap Overwrite */
+.form-group:last-child{ margin-bottom: 0; }
+
+/*added for client*/
+
+
+body{ 
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px;
+	background: #fff;
+}
+/*heading style*/
+h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+h2{
+	font-size: 43px;
+	font-weight: lighter;
+	line-height: 74px;
+}
+h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+h4{
+	font-size: 16px;
+	font-weight: bold;
+}
+h5{
+	font-size: 14px;
+	font-weight: bold;
+}
+/*heading style*/
+
+
+/*custon Style*/
+.light-color{
+	color: #0d2142;
+}
+.dark-color{
+	color: #fff;
+}
+.alignCenter {
+	text-align: center;
+}
+.alignLeft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+p.biger{
+	font-size: 36px;
+}
+
+.larg{
+	font-size: 30px;
+}
+.medium{
+	font-size: 21px;
+	line-height: 28px;
+}
+.ragular{
+	font-size: 16px;
+}
+.lightBlue {
+	color: #3598db;
+}
+/*images shoul to go out of the box*/
+img {
+	max-width: 100%;
+}
+/*custon Style*/
+
+/*bootstrap OverRight*/
+/*navBar*/
+.navbar-default {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    height: auto;
+}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+ 
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand img{
+	width: 80px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background:none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background:none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #3598db;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #3598db;
+    background: none;
+}
+
+.difualtPadding {
+	padding: 150px 0;
+}
+
+#Teamhalal{
+	    /* background-image: url(../images/moblieCard.png); */
+	    background-repeat: no-repeat;
+	    background-size: 700px;
+	    background-attachment: fixed;
+}
+
+#fullControll{
+	    /* background-image: url(../images/moblieCard.png); */
+	    background-repeat: no-repeat;
+	    background-size: 700px;
+	    background-attachment: fixed;
+	    background-position-x: right;
+}
+/*bootstrap OverRight
+
+/*slider Images*/
+
+.topHeader {
+	background: url('../images/sliderBg.jpg');
+	background-attachment: fixed;
+	height: 100vh;
+}
+.Slider {
+    padding: 200px 0;
+}
+.Slider h1 {
+	text-transform: uppercase;
+}
+.slider-form input{
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.78);
+    color: #000;
+}
+.slider-form button{
+    background: #2dcc70;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+}
+/*sliderEnd*/
+
+
+#openAccount{
+	background: #ddd;
+}
+
+.Teamhalal {
+	padding-top: 50px; 
+}
+
+#ourOffer {
+	background: #0d2142;
+}
+#JoinUs {
+    background: #0d2142;
+    padding: 0 0 25px 0;
+}
+#JoinUs input{
+
+	border-radius:0;
+	border:0;
+	color:#fff;
+	padding: 7px;
+	
+}
+#JoinUs button{
+	border-radius:0;
+	border:0;
+	background:#3598db;
+	color:#fff;
+	padding: 7px 27px;
+}
+footer {
+
+	background: url('../images/sliderBg.jpg');
+	background-attachment: fixed;
+}
+.bottomfooter {
+    background: #0d2142;
+    padding: 15px;
+    line-height: 32px;
+}
+
+
+
+/* Section - Client */
+.section.section-client{background: url(../images/client_bg.png) no-repeat center center;background-size: cover;padding: 47px 0;background-attachment: fixed;}
+.section.section-client *{ color: white; }
+.section.section-client .headline-sm{color: #3a85ff !important;}
+.section.section-client p{ margin: 30px 0; font-style: italic; color: #b5b6b8;  }
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background: none;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+	.Slider {
+    padding: 15px 0;
+}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 34px;
+}
+.medium {
+    font-size: 16px;
+    line-height: 28px;
+}
+.difualtPadding {
+    padding: 100px 0;
+}
+.topHeader {
+    background: url(../images/sliderBg.jpg);
+    background-attachment: fixed;
+    height: auto;
+}
+}
+
+@media (min-width: 600px) and (max-width: 770px){
+	.Slider {
+    padding: 15px 0;
+}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 34px;
+}
+.medium {
+    font-size: 16px;
+    line-height: 28px;
+}
+.difualtPadding {
+    padding: 100px 0;
+}
+.topHeader {
+    background: url(../images/sliderBg.jpg);
+    background-attachment: fixed;
+    height: auto;
+}
+}
